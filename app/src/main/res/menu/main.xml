@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_self"
+        android:title="About Team"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_application"
+        android:title="About Application"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_account"
+        android:orderInCategory="2"
+        android:title="Switch Account"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_signout"
+        android:orderInCategory="3"
+        android:title="Sign Out"
+        app:showAsAction="never"
+        />
+
+</menu>

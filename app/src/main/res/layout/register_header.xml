@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/register_header_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/project_detail_cir"
+        />
+
+    <TextView
+        android:id="@+id/register_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="HEALTHY FOOD HELPER"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/register_header_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="KEEP HEALTHY"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        />
+
+</LinearLayout>

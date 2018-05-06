@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "328634420208",
+    "firebase_url": "https://finalprojecthealthyfoodhelpery.firebaseio.com",
+    "project_id": "finalprojecthealthyfoodhelpery",
+    "storage_bucket": "finalprojecthealthyfoodhelpery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328634420208:android:660bd8f3babfca3c",
+        "android_client_info": {
+          "package_name": "com.example.mac.finalproject_healthyfoodhelper_yupzhijingl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328634420208-59v650cjooipt50tkjsnrer9kllkhdn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mac.finalproject_healthyfoodhelper_yupzhijingl",
+            "certificate_hash": "16e4af569a2e2e16a382f88f272fcaed911bc815"
+          }
+        },
+        {
+          "client_id": "328634420208-aeun89r5fak91lc7172jgo1sadise3si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDybaC57bZhEoPzwIQIQJizIeGzxudEJmc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328634420208-aeun89r5fak91lc7172jgo1sadise3si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

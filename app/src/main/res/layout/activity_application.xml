@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#7adfb8"
+    >
+    <com.example.mac.finalproject_healthyfoodhelper_yupzhijingl.layout.TitleLayout
+        android:id="@+id/application_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="App Introduction"
+        app:button_text="Menu"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/app_introduction"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        />
+</LinearLayout>

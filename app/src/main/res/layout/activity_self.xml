@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#7adfb8">
+
+    <com.example.mac.finalproject_healthyfoodhelper_yupzhijingl.layout.TitleLayout
+        android:id="@+id/self_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="Team Introduction"
+        app:button_text="Menu"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/photo"
+        android:layout_gravity="center" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Yu Pei"
+        android:textSize="28sp"
+        android:textColor="#424242"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/yu"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Zhijing Liu"
+        android:textSize="28sp"
+        android:textColor="#424242"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/zhijing"
+        android:textSize="18sp"
+        android:textColor="#283593"
+        />
+
+</LinearLayout>

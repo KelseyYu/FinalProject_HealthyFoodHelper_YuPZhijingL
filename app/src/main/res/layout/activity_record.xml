@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7adfb8"
+    >
+
+    <com.example.mac.finalproject_healthyfoodhelper_yupzhijingl.layout.TitleLayout
+        android:id="@+id/record_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="Question"
+        app:button_text="Menu"
+        />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        layout="@layout/main_tab"
+        />
+
+    <ImageView
+        android:id="@+id/record_picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:background="@mipmap/project_detail_cir"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <EditText
+            android:id="@+id/record_staple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:singleLine="false"
+            android:hint="Staple food?"/>
+
+        <EditText
+            android:id="@+id/record_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:singleLine="false"
+            android:hint="Other food?"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/record_multiple_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which of the following takes the largest proportion of your today's meal?"
+            />
+
+        <CheckBox
+            android:id="@+id/record_multiple_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="protein"
+            />
+
+        <CheckBox
+            android:id="@+id/record_multiple_carbohydrates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="carbohydrate"/>
+
+        <CheckBox
+            android:id="@+id/record_multiple_fat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="fat"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/record_radio_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How long have you taken exercise today?"
+            />
+
+        <RadioGroup
+            android:id="@+id/record_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/record_radio_less"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Less than 1 hour"
+                />
+
+            <RadioButton
+                android:id="@+id/record_radio_between"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1 to 2 hour"
+                />
+
+            <RadioButton
+                android:id="@+id/record_radio_over"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="over 2 hour"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/record_feeling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:hint="Your feelings today..."
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+        <Button
+            android:id="@+id/record_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/text_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_gravity="center"
+            android:text="Submit"
+            />
+
+        <ImageView
+            android:id="@+id/record_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@mipmap/project_detail_cir"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
